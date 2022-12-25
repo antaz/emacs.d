@@ -1,0 +1,24 @@
+* Reasonable Emacs
+
+#+begin_quote
+*DISCLAIMER*: This distro of emacs is my own personal configuration. It
+is not meant to be used as a general purpose emacs distro.
+#+end_quote
+
+** Installation
+
+backup your existing ~.emacs.d~ directoy and clone the repo 
+
+#+being_src sh
+mv ~/.emacs.d ~/.emacs.d.bak
+git clone https://github.com/blocr/emacs.d ~/.emacs.d
+#+end_src
+
+** Packages used
+
+- ~general.el~ for mappings
+- ~evil~ for VIM like editing
+- ~eglot~ for LSP
+- ~company~, ~marginalia~, ~consult~ and ~embark~ as a completion framework
+- ~magit~ for VC
+- ~modus-themes~ for a reasonably consistent color scheme
