@@ -25,6 +25,7 @@
 (require 'init-evil)
 (require 'init-mapping)
 (require 'init-completion)
+(require 'init-org)
 (require 'init-vc)
 (require 'init-epa)
 
