@@ -23,7 +23,7 @@
       modus-themes-tabs-accented t
       modus-themes-inhibit-reload t
       modus-themes-fringes nil
-      modus-themes-lang-checkers nil
+      modus-themes-lang-checkers 'faint
       modus-themes-mode-line '(accented borderless)
       modus-themes-markup '(background italic)
       modus-themes-syntax nil
@@ -38,17 +38,7 @@
       modus-themes-mail-citations nil
       modus-themes-region '(bg-only no-extend)
       modus-themes-diffs 'desaturated
-      modus-themes-org-blocks 'gray-background
-      modus-themes-org-agenda
-      '((header-block . (variable-pitch 1.3))
-        (header-date . (grayscale workaholic bold-today 1.1))
-        (event . (accented varied))
-        (scheduled . uniform)
-        (habit . traffic-light))
-      modus-themes-headings
-      '((1 . (overline background variable-pitch 1.3))
-        (2 . (rainbow overline 1.1))
-        (t . (semibold))))
+      modus-themes-org-blocks 'gray-background)
 
 (load-theme 'modus-vivendi)
 
