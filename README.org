@@ -9,9 +9,9 @@ is not meant to be used as a general purpose emacs distro.
 
 backup your existing ~.emacs.d~ directoy and clone the repo 
 
-#+being_src sh
-mv ~/.emacs.d ~/.emacs.d.bak
-git clone https://github.com/blocr/emacs.d ~/.emacs.d
+#+begin_src sh
+  mv ~/.emacs.d ~/.emacs.d.bak
+  git clone https://github.com/blocr/emacs.d ~/.emacs.d
 #+end_src
 
 ** Packages used
