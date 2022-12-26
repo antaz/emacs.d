@@ -16,6 +16,7 @@
       org-format-latex-options (plist-put org-format-latex-options :scale 1.2)
       org-image-actual-width '(400))
 
+
 (add-hook 'org-mode-hook 'auto-fill-mode)
 (add-hook 'org-mode-hook 'visual-line-mode)
 

@@ -37,6 +37,7 @@
    "gs" '(magit-status :which-key "magit status")
 
    "o" '(nil :which-key "org")
+   "oc" '(org-capture :which-key "org-capture")
 
    "d" '(dired :which-key "dired")
 

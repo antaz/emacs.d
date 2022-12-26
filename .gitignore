@@ -5,4 +5,5 @@ transient/
 tree-sitter/
 url/
 history
-/custom.el
+bookmarks
+custom.el

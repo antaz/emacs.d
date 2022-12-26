@@ -23,7 +23,7 @@
       modus-themes-tabs-accented t
       modus-themes-inhibit-reload t
       modus-themes-fringes nil
-      modus-themes-lang-checkers 'faint
+      modus-themes-lang-checkers nil
       modus-themes-mode-line '(accented borderless)
       modus-themes-markup '(background italic)
       modus-themes-syntax nil
@@ -40,6 +40,6 @@
       modus-themes-diffs 'desaturated
       modus-themes-org-blocks 'gray-background)
 
-(load-theme 'modus-vivendi)
+(load-theme 'modus-vivendi t)
 
 (provide 'init-look)
