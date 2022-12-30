@@ -22,7 +22,7 @@
 
    "b" '(nil :which-key "buffer")
    "bb" '(consult-buffer :which-key "switch buffer")
-   "bd" '(kill-buffer :which-key "delete buffer")
+   "bd" '(kill-current-buffer :which-key "delete buffer")
 
    "f" '(nil :which-key "file")
    "ff" '(consult-find :which-key "find file")
@@ -40,6 +40,8 @@
    "oc" '(org-capture :which-key "org-capture")
 
    "d" '(dired :which-key "dired")
+
+   "i" '(imenu :which-key "imenu")
 
    "h" '(nil :which-key "help")
    "hv" '(describe-variable :which-key "describe variable")))
