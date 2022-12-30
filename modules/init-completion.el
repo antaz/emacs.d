@@ -1,9 +1,11 @@
 ;;; -*- lexical-binding: t; -*-
 
-(use-package company
-  :after eglot)
-
-(add-hook 'after-init-hook 'global-company-mode)
+(use-package corfu
+  :custom
+  (corfu-auto t)
+  :bind
+  :init
+  (global-corfu-mode))
 
 (use-package vertico
   :ensure t
