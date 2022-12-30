@@ -13,7 +13,7 @@
       org-indent-indentation-per-level 1
       org-startup-with-inline-images t
       org-latex-create-formula-image-program 'dvipng
-      org-format-latex-options (plist-put org-format-latex-options :scale 1.2)
+      ;; org-format-latex-options (plist-put org-format-latex-options :scale 1.2)
       org-image-actual-width '(400))
 
 
