@@ -26,6 +26,7 @@
 
    "f" '(nil :which-key "file")
    "ff" '(consult-find :which-key "find file")
+   "fr" '(recentf-open-files :which-key "recentf open files")
 
    "w" '(nil :which-key "window")
    "ws" '(split-window-right :which-key "split window")
