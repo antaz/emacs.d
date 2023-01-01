@@ -28,6 +28,7 @@
 (require 'init-recentf)
 (require 'init-org)
 (require 'init-vc)
+(require 'init-web)
 (require 'init-markdown)
 (require 'init-epa)
 
