@@ -3,43 +3,27 @@
 ;; Set font face attributes
 (defun set-faces ()
   ;; Default font face
-  (set-face-attribute 'default nil :font "MonoLisa" :height 108)
+  (set-face-attribute 'default nil :family "Monolisa" :height 108)
   ;; Fixed pitch face
-  (set-face-attribute 'fixed-pitch nil :font "MonoLisa" :height 1.0)
+  (set-face-attribute 'fixed-pitch nil :family "Monolisa" :height 1.0)
   ;; Variable pitch face
-  (set-face-attribute 'variable-pitch nil :font "DejaVu Sans" :height 1.2))
+  (set-face-attribute 'variable-pitch nil :family "DejaVu Sans" :height 1.2))
 
 (add-hook 'server-after-make-frame-hook 'set-faces)
 (set-faces)
 
 (pixel-scroll-precision-mode)
 
-(setq modus-themes-italic-constructs t
+(setq modus-themes-common-palette-overrides
+      '((border-mode-line-active unspecified)
+	(border-mode-line-inactive unspecified)
+	(bg-mode-line-active bg-blue-subtle)
+	(fg-mode-line-active fg-main)
+	(fringe unspecified))
+      modus-themes-italic-constructs t
       modus-themes-bold-constructs t
-      modus-themes-mixed-fonts t
-      modus-themes-subtle-line-numbers t
-      modus-themes-intense-mouseovers t
-      modus-themes-deuteranopia t
-      modus-themes-tabs-accented t
-      modus-themes-inhibit-reload t
-      modus-themes-fringes nil
-      modus-themes-lang-checkers nil
-      modus-themes-mode-line '(accented borderless)
-      modus-themes-markup '(background italic)
-      modus-themes-syntax nil
-      modus-themes-hl-line '(underline accented)
-      modus-themes-paren-match '(bold intense)
-      modus-themes-links '(neutral-underline background)
-      modus-themes-box-buttons '(variable-pitch flat faint 0.9)
-      modus-themes-prompts '(intense bold)
-      modus-themes-completions '((matches . (extrabold))
-                                 (selection . (semibold accented))
-                                 (popup . (accented intense)))
-      modus-themes-mail-citations nil
-      modus-themes-region '(bg-only no-extend)
-      modus-themes-diffs 'desaturated
       modus-themes-org-blocks 'gray-background)
 
-(load-theme 'modus-vivendi t)
+(load-theme 'modus-vivendi :no-confirm)
 
 (provide 'init-look)

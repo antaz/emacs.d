@@ -1,8 +1,8 @@
 ;;;  -*- lexical-binding: t -*-
 
 ;; Minimum version required
-(when (version< emacs-version "26.1")
-  (error "This requires Emacs 26.1 and above!"))
+(when (version< emacs-version "30.0")
+  (error "This requires Emacs 30.0 and above! (current master branch)"))
 
 ;; Profile emacs startup
 (add-hook 'emacs-startup-hook

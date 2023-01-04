@@ -14,4 +14,4 @@
 (push '(vertical-scroll-bars) default-frame-alist)
 
 ;; Load the theme now to avoid flashing
-(load-theme 'modus-vivendi t)
+(load-theme 'modus-vivendi :no-confirm)
