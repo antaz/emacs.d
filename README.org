@@ -19,6 +19,6 @@ backup your existing ~.emacs.d~ directoy and clone the repo
 - ~general.el~ for mappings
 - ~evil~ for VIM like editing
 - ~eglot~ for LSP
-- ~company~, ~marginalia~, ~consult~ and ~embark~ as a completion framework
+- ~corfu~, ~vertico~, ~marginalia~, ~consult~, ~orderless~ and ~embark~ as a completion framework
 - ~magit~ for VC
 - ~modus-themes~ for a reasonably consistent color scheme
