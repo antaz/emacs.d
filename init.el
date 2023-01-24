@@ -21,6 +21,7 @@
 (add-to-list 'load-path (expand-file-name "modules" user-emacs-directory))
 
 (require 'init-package)
+(require 'init-defaults)
 (require 'init-look)
 (require 'init-evil)
 (require 'init-mapping)
