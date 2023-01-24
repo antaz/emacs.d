@@ -33,6 +33,7 @@
 (require 'init-web)
 (require 'init-markdown)
 (require 'init-epa)
+(require 'init-deft)
 
 ;; Custom config file
 (setq custom-file (locate-user-emacs-file "custom.el"))
