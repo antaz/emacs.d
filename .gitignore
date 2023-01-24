@@ -4,6 +4,9 @@ elpa/
 transient/
 tree-sitter/
 url/
+eshell/
+recentf
+snippets/
 history
 bookmarks
 custom.el
