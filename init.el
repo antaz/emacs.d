@@ -28,6 +28,7 @@
 (require 'init-completion)
 (require 'init-recentf)
 (require 'init-org)
+(require 'init-cc)
 (require 'init-yasnippet)
 (require 'init-vc)
 (require 'init-web)
