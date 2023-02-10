@@ -5,6 +5,7 @@ transient/
 tree-sitter/
 url/
 eshell/
+backup/
 recentf
 snippets/
 history
